@@ -1,0 +1,5 @@
+@mixin button($bg_color, $text_color){
+    color: $text_color;
+    background-color: $bg_color;
+    font-weight: 600;
+}

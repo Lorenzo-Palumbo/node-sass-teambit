@@ -1,0 +1,12 @@
+.row_one{
+    display: flex;
+    .row_one_left{
+        width: calc(100vw / 2)
+    }
+    .row_one_right{
+        width: calc(100vw / 2);
+        img{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+header{
+    margin: 0 150px;
+    height: 70px;
+    border-bottom: 1px solid $primary_color_font;
+    line-height: 70px;
+    .header-left{
+        float: left;
+    }
+    .header-right{
+        float: right;
+        a{
+            color: $primary_color_font;
+            text-decoration: none;
+            padding-left: 10px;
+        }
+        .btn{
+            @include button(white, #30488f);
+            border: 1px solid #30488f;
+            margin-left: 10px;
+        }
+    }
+}
