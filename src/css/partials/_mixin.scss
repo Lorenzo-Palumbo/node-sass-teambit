@@ -3,3 +3,9 @@
     background-color: $bg_color;
     font-weight: 600;
 }
+
+@mixin row($lateral_margin){
+    display: flex;
+    margin: $lateral_margin;
+    padding: 100px 0;
+}
