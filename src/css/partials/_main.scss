@@ -6,11 +6,6 @@
             font-size: 50px;
             padding-bottom: 30px;
         }
-        h4{
-            font-size: 25px;
-            font-weight: 400;
-            padding-bottom: 30px;
-        }
         .btn{
             @include button(#30488f, white);
             margin-bottom: 20px;
@@ -29,9 +24,6 @@
     flex-direction: column;
     align-items: center;
     border-bottom: 1px solid gray;
-    h3{
-        font-size: 26px;
-    }
     .cards{
         img{
             width: 140px;
@@ -57,10 +49,6 @@
     @include row(0 250px);
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid gray;
-    h3{
-        font-size: 26px;
-    }
     .cards{
         img{
             width: 140px;
@@ -82,5 +70,24 @@
     }
     img.img_right{
         width: 60px;
+    }
+    h3{
+        padding-top: 60px;
+    }
+}
+
+.row_four{
+    @include row(0);
+    img.feedback{
+        width: 768px;
+    }
+    img.penguins{
+        width: 270px;
+    }
+    a{
+        display: block;
+        padding-bottom: 30px;
+        font-size: 20px;
+        text-decoration: none;    
     }
 }

@@ -25,6 +25,17 @@ body {
   padding: 100px 15px;
 }
 
+h3 {
+  font-size: 26px;
+  padding-bottom: 30px;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
 header {
   margin: 0 150px;
   height: 70px;
@@ -69,12 +80,6 @@ header .header-right .btn {
   padding-bottom: 30px;
 }
 
-.row_one .row_one_left h4 {
-  font-size: 25px;
-  font-weight: 400;
-  padding-bottom: 30px;
-}
-
 .row_one .row_one_left .btn {
   color: white;
   background-color: #30488f;
@@ -97,10 +102,6 @@ header .header-right .btn {
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid gray;
-}
-
-.row_two h3 {
-  font-size: 26px;
 }
 
 .row_two .cards img {
@@ -131,11 +132,6 @@ header .header-right .btn {
   padding: 100px 0;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid gray;
-}
-
-.row_three h3 {
-  font-size: 26px;
 }
 
 .row_three .cards img {
@@ -162,5 +158,30 @@ header .header-right .btn {
 
 .row_three img.img_right {
   width: 60px;
+}
+
+.row_three h3 {
+  padding-top: 60px;
+}
+
+.row_four {
+  display: flex;
+  margin: 0;
+  padding: 100px 0;
+}
+
+.row_four img.feedback {
+  width: 768px;
+}
+
+.row_four img.penguins {
+  width: 270px;
+}
+
+.row_four a {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
